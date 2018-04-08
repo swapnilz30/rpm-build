@@ -1,7 +1,7 @@
 Name:           print_msg
 Version:        1
 #Release:       1%{?dist}
-Release:        %{release}
+Release:        %{release}-%{build_num}
 Summary:        Small epic script but not really usable
 
 #Group:          Utilities

@@ -16,7 +16,23 @@ cd /home/jenkins/workspace/rpm-build-test/rpm-build/
 tar -czvf ${pkg_name}.tar.gz ${pkg_name}
 cp ${pkg_name}.tar.gz $RPM_SOURCE_DIR
 
-rpmbuild -ba --define "release $release" $spec_file
+
+hile getopts b: name
+do
+	case $name in
+		m)
+			build_num="$OPTARG"
+		;;
+   		?)
+			err_msg
+			exit 1
+          	;;
+    esac
+done;
+
+
+
+rpmbuild -ba --define "release $release" --define "build_num $build_num" $spec_file
 
 if [ $? == 0  ]; then
    echo "success"

@@ -20,7 +20,7 @@ cp ${pkg_name}.tar.gz $RPM_SOURCE_DIR
 while getopts b: name
 do
 	case $name in
-		m)
+		b)
 			build_num="$OPTARG"
 		;;
    		?)

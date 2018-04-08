@@ -16,7 +16,7 @@ export RPM_SOURCE_DIR RPM_BUILD_DIR RPM_BUILD_ROOT
 tar -czvf ${pkg_name}.tar.gz ${pkg_name}
 cp ${pkg_name}.tar.gz $RPM_SOURCE_DIR
 
-rpmbuild -ba --define "release $release" $spec_file
+rpmbuild -ba --define "release $release" rpm-build/$spec_file
 
 if [ $? == 0  ]; then
    echo "success"

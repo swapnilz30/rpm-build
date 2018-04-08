@@ -24,7 +24,8 @@ do
 			build_num="$OPTARG"
 		;;
    		?)
-			err_msg
+			echo "Specify the parameter.Check the following example."
+            echo "Example: sh build.sh -b <build_num>
 			exit 1
           	;;
     esac

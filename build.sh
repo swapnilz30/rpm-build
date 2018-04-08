@@ -3,7 +3,7 @@
 #2. Copy the tar.gz file to the SOURCES
 
 # pkg_name-version-release.x86_64
-release=2.0-
+release=2.0
 spec_file=print_msg.spec
 pkg_name=print_msg-1
 

@@ -1,0 +1,41 @@
+#!/bin/sh
+
+  RPM_SOURCE_DIR="/Users/swapnil/rpmbuild/SOURCES"
+  RPM_BUILD_DIR="/Users/swapnil/rpmbuild/BUILD"
+  RPM_OPT_FLAGS="-O2 -g"
+  RPM_ARCH="x86_64"
+  RPM_OS="darwin"
+  export RPM_SOURCE_DIR RPM_BUILD_DIR RPM_OPT_FLAGS RPM_ARCH RPM_OS
+  RPM_DOC_DIR="/usr/local/share/doc"
+  export RPM_DOC_DIR
+  RPM_PACKAGE_NAME="print_msg"
+  RPM_PACKAGE_VERSION="1"
+  RPM_PACKAGE_RELEASE="1"
+  export RPM_PACKAGE_NAME RPM_PACKAGE_VERSION RPM_PACKAGE_RELEASE
+  LANG=C
+  export LANG
+  unset CDPATH DISPLAY ||:
+  RPM_BUILD_ROOT="/Users/swapnil/rpmbuild/BUILDROOT/print_msg-1-1.x86_64"
+  export RPM_BUILD_ROOT
+  
+  PKG_CONFIG_PATH="${PKG_CONFIG_PATH}:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig"
+  export PKG_CONFIG_PATH
+  
+  set -x
+  umask 022
+  cd "/Users/swapnil/rpmbuild/BUILD"
+cd 'print_msg-1'
+#rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT/opt/print_msg/print_msg
+install myscript.sh $RPM_BUILD_ROOT/opt/print_msg/printmsg.sh
+
+
+
+    
+    
+    
+    /usr/local/Cellar/rpm/4.14.1/lib/rpm/brp-compress 
+    /usr/local/Cellar/rpm/4.14.1/lib/rpm/brp-strip /usr/bin/strip 
+    /usr/local/Cellar/rpm/4.14.1/lib/rpm/brp-strip-static-archive /usr/bin/strip 
+    /usr/local/Cellar/rpm/4.14.1/lib/rpm/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump 
+

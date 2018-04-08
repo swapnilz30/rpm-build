@@ -17,7 +17,7 @@ tar -czvf ${pkg_name}.tar.gz ${pkg_name}
 cp ${pkg_name}.tar.gz $RPM_SOURCE_DIR
 
 
-hile getopts b: name
+while getopts b: name
 do
 	case $name in
 		m)

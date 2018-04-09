@@ -12,6 +12,7 @@ Source0:        print_msg-1.tar.gz
 %description
 Small epic script that prints some stuff
 
+Requires: vim
 %prep
 
 %setup -q

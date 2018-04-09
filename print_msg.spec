@@ -22,13 +22,13 @@ Small epic script that prints some stuff
 #rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT/opt/print_msg/print_msg
 install printmsg.sh $RPM_BUILD_ROOT/opt/print_msg/printmsg.sh
-
+install /opt/print_msg/printmsg.sh
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post
-./opt/print_msg/printmsg.sh
+#%post
+#./opt/print_msg/printmsg.sh
 
 %files
 %defattr(-,root,root,-)

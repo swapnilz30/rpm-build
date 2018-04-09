@@ -1,3 +1,8 @@
 #!/bin/bash
 
-echo "This is rpm msg."
+echo "The vim installation started."
+sudo yum install -y vim
+#===========================
+echo "The vim installation started."
+sudo yum install -y screen
+#===========================

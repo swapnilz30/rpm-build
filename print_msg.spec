@@ -29,7 +29,7 @@ install printmsg.sh $RPM_BUILD_ROOT/opt/print_msg/printmsg.sh
 rm -rf $RPM_BUILD_ROOT
 
 %post
-./opt/print_msg/printmsg.sh
+#./opt/print_msg/printmsg.sh
 
 %files
 %defattr(-,root,root,-)

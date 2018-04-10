@@ -8,8 +8,8 @@ Summary:        Small epic script but not really usable
 License:        GPL
 Source0:        print_msg-1.tar.gz
 #BuildArch:      noarch
-Autoreq:        yes
-Requires:vim
+#Autoreq:        yes
+Requires:vim, screen
 %description
 Small epic script that prints some stuff
 

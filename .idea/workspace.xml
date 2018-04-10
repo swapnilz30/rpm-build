@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7fc4ea2-666a-4157-a758-a7764fffb298" name="Default" comment="">
       <change beforePath="$USER_HOME$/ansible-code/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/ansible-code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="print_msg.spec" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/print_msg.spec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -192,8 +191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/print_msg.spec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

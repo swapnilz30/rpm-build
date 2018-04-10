@@ -9,7 +9,8 @@ License:        GPL
 Source0:        print_msg-1.tar.gz
 #BuildArch:      noarch
 #Autoreq:        yes
-Requires:vim, screen
+#Requires:vim, screen
+Requires: erlang
 %description
 Small epic script that prints some stuff
 

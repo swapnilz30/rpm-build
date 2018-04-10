@@ -31,6 +31,11 @@ install printmsg.sh $RPM_BUILD_ROOT/opt/print_msg/printmsg.sh
 rm -rf $RPM_BUILD_ROOT
 
 %post
+     systemctl enable rabbitmq-server
+     systemctl start rabbitmq-server
+     rabbitmqctl delete_user guest
+     rabbitmqctl add_user cyops changeme
+     rabbitmqctl set_user_tags cyops administrator
 #./opt/print_msg/printmsg.sh
 
 %files

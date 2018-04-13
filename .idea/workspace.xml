@@ -4,6 +4,9 @@
     <list default="true" id="d7fc4ea2-666a-4157-a758-a7764fffb298" name="Default" comment="">
       <change beforePath="$USER_HOME$/ansible-code/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/ansible-code/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy_files/copy_file.spec" beforeDir="false" afterPath="$PROJECT_DIR$/copy_files/copy_file.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy_files/dir1/dir2/file2" beforeDir="false" afterPath="$PROJECT_DIR$/copy_files/dir1/dir2/file2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy_files/dir1/file1" beforeDir="false" afterPath="$PROJECT_DIR$/copy_files/dir1/file1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/print_msg.spec" beforeDir="false" afterPath="$PROJECT_DIR$/print_msg.spec" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="print_msg.spec" pinned="false" current-in-tab="true">
+      <file leaf-file-name="print_msg.spec" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/print_msg.spec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="675">
+              <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="copy_file.spec" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copy_files/copy_file.spec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git_push.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/git_push.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -27,17 +48,8 @@
       <file leaf-file-name="build.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="printmsg.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/print_msg-1/printmsg.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -59,9 +71,13 @@
         <option value="$PROJECT_DIR$/rpm-small-examples/print_msg.spec" />
         <option value="$USER_HOME$/rpmbuild/SPECS/print_msg.spec" />
         <option value="$PROJECT_DIR$/git_push.sh" />
-        <option value="$PROJECT_DIR$/build.sh" />
         <option value="$PROJECT_DIR$/print_msg-1/printmsg.sh" />
         <option value="$PROJECT_DIR$/print_msg.spec" />
+        <option value="$PROJECT_DIR$/copy_files/dir1/dir2/file2" />
+        <option value="$PROJECT_DIR$/copy_files/dir1/file1" />
+        <option value="$PROJECT_DIR$/build.sh" />
+        <option value="$PROJECT_DIR$/copy_files/copy_file.spec" />
+        <option value="$USER_HOME$/git_push.sh" />
       </list>
     </option>
   </component>
@@ -86,7 +102,7 @@
             <path>
               <item name="rpm-build" type="b2602c69:ProjectViewProjectNode" />
               <item name="rpm-build" type="462c0819:PsiDirectoryNode" />
-              <item name="print_msg-1" type="462c0819:PsiDirectoryNode" />
+              <item name="copy_files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,13 +193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/print_msg-1/printmsg.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -191,10 +200,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/copy_files/dir1/dir2/file2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copy_files/dir1/file1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/print_msg.spec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copy_files/copy_file.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/git_push.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

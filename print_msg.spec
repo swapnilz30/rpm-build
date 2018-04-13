@@ -36,7 +36,7 @@ rm -rf $RPM_BUILD_ROOT
      rabbitmqctl delete_user guest
      rabbitmqctl add_user cyops changeme
      rabbitmqctl set_user_tags cyops administrator
-#./opt/print_msg/printmsg.sh
+     rabbitmqctl list_users
 
 %files
 %defattr(-,root,root,-)

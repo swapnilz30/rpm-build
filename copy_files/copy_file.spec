@@ -12,8 +12,9 @@ echo "%prep started"
 
 #%setup -q
 
-%install
 echo "%install started"
+%install
+
 
 %clean
 echo "%clean started"

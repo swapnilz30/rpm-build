@@ -17,6 +17,7 @@ echo "%prep started"
 %clean
 
 %post
-%file
+
+%files
 
 %changelog

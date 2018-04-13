@@ -13,11 +13,15 @@ echo "%prep started"
 #%setup -q
 
 %install
+echo "%install started"
 
 %clean
+echo "%clean started"
 
 %post
+echo "%post started"
 
 %files
+echo "%files started"
 
 %changelog

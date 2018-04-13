@@ -2,7 +2,7 @@
 
 spec_file=copy_file.spec
 
-cd /home/jenkins/workspace/copy_file/rpm-build
+cd /home/jenkins/workspace/copy_file/rpm-build/copy_files
 while getopts b: name
 do
 	case $name in

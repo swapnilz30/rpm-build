@@ -1,5 +1,7 @@
 #!/bin/bash
 
+spec_file=copy_file.spec
+
 while getopts b: name
 do
 	case $name in

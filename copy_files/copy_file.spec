@@ -10,7 +10,7 @@ Copy file structure.
 %prep
 echo "%prep started"
 
-%setup -q
+#%setup -q
 
 %install
 

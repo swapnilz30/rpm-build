@@ -2,7 +2,6 @@ Name:    copy_files
 Version: 1.1
 Release: %{build_num}
 License: GPL
-#Source0: copy_file.tar.gz
 Summary: Copy file structure.
 
 %description

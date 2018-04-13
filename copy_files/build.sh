@@ -3,8 +3,6 @@
 spec_file=copy_file.spec
 
 cd /home/jenkins/workspace/copy_files/rpm-build/copy_files
-#tar -czvf ${pkg_name}.tar.gz ${pkg_name}
-#cp ${pkg_name}.tar.gz $RPM_SOURCE_DIR
 
 
 while getopts b: name

@@ -31,7 +31,7 @@ do
 done;
 
 
-
+rpmbuild --clean --define "build_num $build_num" $spec_file
 rpmbuild -ba --define "build_num $build_num" $spec_file
 
 if [ $? == 0  ]; then

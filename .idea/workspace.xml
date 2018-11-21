@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7fc4ea2-666a-4157-a758-a7764fffb298" name="Default" comment="">
-      <change afterPath="$USER_HOME$/PycharmProjects/python/create-dir.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/PycharmProjects/rpm-mysql/rpm/rpm-mysql.spec" afterDir="false" />
+    <list default="true" id="d7fc4ea2-666a-4157-a758-a7764fffb298" name="Default" comment="Added print(&quot;The &quot;, write_file_name, &quot;file exist.&quot;)ˆ">
+      <change afterPath="$USER_HOME$/PycharmProjects/python/menu-operations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +14,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create-dir.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create-dir.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/PycharmProjects/python/create-dir.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="e#59#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-file.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/python/create-file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="20" />
+              <folding>
+                <element signature="e#54#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file-operation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/python/file-operation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="20" />
+              <folding>
+                <element signature="e#58#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file-write.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/python/file-write.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#55#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file-read-write.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/python/file-read-write.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#87#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu-operations.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/PycharmProjects/python/menu-operations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+              <folding>
+                <element signature="e#67#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,6 +107,7 @@
       <find>jenkins_build_path</find>
       <find>repo_name</find>
       <find>branch_name</find>
+      <find>path</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,6 +138,11 @@
         <option value="$USER_HOME$/PycharmProjects/jenkins_file/Jenkinsfile_node" />
         <option value="$USER_HOME$/PycharmProjects/jenkins_file/Jenkinsfile_pkg_build" />
         <option value="$USER_HOME$/PycharmProjects/python/create-dir.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/create-file.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/file-write.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/file-operation.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/file-read-write.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/menu-operations.py" />
       </list>
     </option>
   </component>
@@ -105,6 +172,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="develop" />
+    </force-push-targets>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -141,21 +213,182 @@
       <option name="project" value="LOCAL" />
       <updated>1523760418148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added create-dir.py file.">
+      <created>1542460255672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542460255672</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added create directory code.">
+      <created>1542460812866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542460812867</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added create directory code.">
+      <created>1542461427517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542461427518</updated>
+    </task>
+    <task id="LOCAL-00005" summary="except FileNotFoundError:">
+      <created>1542461841788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542461841788</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added the file create-file.py">
+      <created>1542534712391</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542534712391</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added : and empty word to file">
+      <created>1542534811892</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542534811892</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added following functions.&#10;check_file_dir(file_name)&#10;create_file(file_name)">
+      <created>1542536152075</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542536152075</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added os to the path">
+      <created>1542536349503</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542536349503</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added exit to the function check_file_dir">
+      <created>1542536535423</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542536535423</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added file file-write.py">
+      <created>1542538162942</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542538162942</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added f.close()">
+      <created>1542538510198</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542538510198</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added following condition &#10;if file_name == &quot;&quot;:&#10;    print(&quot;The file name should not be empty.&quot;)&#10;    exit()">
+      <created>1542538614005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1542538614005</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added the following function.&#10;check_file_dir(file_name)&#10;file_operation(file_name)&#10;read_file(file_name)">
+      <created>1542539799118</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542539799118</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added () to print">
+      <created>1542539902041</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542539902041</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added '\n' +">
+      <created>1542540113957</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1542540113957</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added + '\n'">
+      <created>1542540162750</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1542540162750</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Removed '\n' + to from function file_operation">
+      <created>1542540337761</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1542540337761</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added os.path.abspath">
+      <created>1542540941169</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1542540941169</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added file-read-write.py">
+      <created>1542653210821</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1542653210821</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added file_name to the isdir and isfile">
+      <created>1542655665313</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1542655665314</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Variable file_exist replaced with file_exist_status">
+      <created>1542658664988</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1542658664988</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added print(&quot;The &quot;, write_file_name, )">
+      <created>1542658807310</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1542658807310</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added print(&quot;The &quot;, write_file_name, &quot;file exist.&quot;)ˆ">
+      <created>1542658854323</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1542658854323</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14164905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14164905" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2339394" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2339394" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -172,44 +405,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comment the install -d" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment the install -d" />
+    <MESSAGE value="Added create-dir.py file." />
+    <MESSAGE value="Added create directory code." />
+    <MESSAGE value="except FileNotFoundError:" />
+    <MESSAGE value="Added the file create-file.py" />
+    <MESSAGE value="Added : and empty word to file" />
+    <MESSAGE value="Added following functions.&#10;check_file_dir(file_name)&#10;create_file(file_name)" />
+    <MESSAGE value="Added os to the path" />
+    <MESSAGE value="Added exit to the function check_file_dir" />
+    <MESSAGE value="Added file file-write.py" />
+    <MESSAGE value="Added f.close()" />
+    <MESSAGE value="Added following condition &#10;if file_name == &quot;&quot;:&#10;    print(&quot;The file name should not be empty.&quot;)&#10;    exit()" />
+    <MESSAGE value="Added the following function.&#10;check_file_dir(file_name)&#10;file_operation(file_name)&#10;read_file(file_name)" />
+    <MESSAGE value="Added () to print" />
+    <MESSAGE value="Added '\n' +" />
+    <MESSAGE value="Added + '\n'" />
+    <MESSAGE value="Removed '\n' + to from function file_operation" />
+    <MESSAGE value="Added os.path.abspath" />
+    <MESSAGE value="Added file-read-write.py" />
+    <MESSAGE value="Added file_name to the isdir and isfile" />
+    <MESSAGE value="Variable file_exist replaced with file_exist_status" />
+    <MESSAGE value="Added print(&quot;The &quot;, write_file_name, )" />
+    <MESSAGE value="Added print(&quot;The &quot;, write_file_name, &quot;file exist.&quot;)ˆ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added print(&quot;The &quot;, write_file_name, &quot;file exist.&quot;)ˆ" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/PycharmProjects/jenkins_file/Jenkinsfile_node">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/jenkins_file/Jenkinsfile_pkg_build">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print_msg.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/xen-server-commands/xe-cmd.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/xen-server-commands/build.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -497,8 +717,61 @@
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/python/create-dir.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#59#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/python/create-file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="20" />
+          <folding>
+            <element signature="e#54#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/python/file-operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="20" />
+          <folding>
+            <element signature="e#58#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/python/file-write.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#55#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/python/file-read-write.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#87#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/python/menu-operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="e#67#76#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

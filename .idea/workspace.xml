@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7fc4ea2-666a-4157-a758-a7764fffb298" name="Default" comment="Added print(&quot;The &quot;, write_file_name, &quot;file exist.&quot;)ˆ">
-      <change afterPath="$USER_HOME$/PycharmProjects/python/menu-operations.py" afterDir="false" />
+    <list default="true" id="d7fc4ea2-666a-4157-a758-a7764fffb298" name="Default" comment="">
+      <change beforePath="$USER_HOME$/PycharmProjects/python/getopts.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/python/getopts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,74 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create-dir.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/python/create-dir.py">
+      <file leaf-file-name="getopts.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/PycharmProjects/python/getopts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="e#59#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create-file.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/python/create-file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="20" />
-              <folding>
-                <element signature="e#54#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file-operation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/python/file-operation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="20" />
-              <folding>
-                <element signature="e#58#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file-write.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/python/file-write.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-end-column="20" />
-              <folding>
-                <element signature="e#55#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file-read-write.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/python/file-read-write.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#87#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu-operations.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/PycharmProjects/python/menu-operations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-              <folding>
-                <element signature="e#67#76#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -141,8 +78,12 @@
         <option value="$USER_HOME$/PycharmProjects/python/create-file.py" />
         <option value="$USER_HOME$/PycharmProjects/python/file-write.py" />
         <option value="$USER_HOME$/PycharmProjects/python/file-operation.py" />
-        <option value="$USER_HOME$/PycharmProjects/python/file-read-write.py" />
         <option value="$USER_HOME$/PycharmProjects/python/menu-operations.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/file-read-write.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/file-write-while-true.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/sample-class.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/sample-inheritance.py" />
+        <option value="$USER_HOME$/PycharmProjects/python/getopts.py" />
       </list>
     </option>
   </component>
@@ -374,21 +315,161 @@
       <option name="project" value="LOCAL" />
       <updated>1542658854323</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added the menu-operations.py file">
+      <created>1542825195521</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1542825195521</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added menu_condition=0 into the menu function">
+      <created>1542825383721</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1542825383721</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added the following condition &#10;        if menu_condition == 5:&#10;            exit()ˆ">
+      <created>1542825506328</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1542825506328</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added the following condition after input &#10;        if menu_condition == 5:&#10;            exit()ˆ">
+      <created>1542825612262</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1542825612262</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added int() function">
+      <created>1542825917764</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1542825917764</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Adde ''">
+      <created>1542826056373</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1542826056373</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added result to the every function">
+      <created>1542826279551</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1542826279551</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added True">
+      <created>1542826575848</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1542826575848</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Replaced menu_condition with choice">
+      <created>1542826809905</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1542826809905</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added getopts.py file">
+      <created>1542912317706</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1542912317707</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added info_msg() function">
+      <created>1542913569291</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1542913569291</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added  if opt in (&quot;-h&quot;,&quot;--help&quot;): condition">
+      <created>1542913760481</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1542913760481</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added file-write-while-true.py added">
+      <created>1542993553901</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1542993553901</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added print (&quot;The &quot;,ifile,&quot;file created.&quot;)">
+      <created>1542994134689</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1542994134689</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Added global file_status">
+      <created>1542994729185</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1542994729185</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Moved global file_status inside the check_input">
+      <created>1542994964363</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1542994964363</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added the comment # This script is ready but need to handle the keyboard interrupt.&#10;Searching for the solution.">
+      <created>1542997010595</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1542997010595</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Added try finally">
+      <created>1543000957988</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1543000957988</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Added sample-class.py">
+      <created>1543038225889</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1543038225890</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added sample-inheritance.py">
+      <created>1543038781802</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1543038781802</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14164905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14164905" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2339394" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2339394" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -404,78 +485,51 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comment the install -d" />
-    <MESSAGE value="Added create-dir.py file." />
-    <MESSAGE value="Added create directory code." />
-    <MESSAGE value="except FileNotFoundError:" />
-    <MESSAGE value="Added the file create-file.py" />
-    <MESSAGE value="Added : and empty word to file" />
-    <MESSAGE value="Added following functions.&#10;check_file_dir(file_name)&#10;create_file(file_name)" />
-    <MESSAGE value="Added os to the path" />
-    <MESSAGE value="Added exit to the function check_file_dir" />
-    <MESSAGE value="Added file file-write.py" />
-    <MESSAGE value="Added f.close()" />
-    <MESSAGE value="Added following condition &#10;if file_name == &quot;&quot;:&#10;    print(&quot;The file name should not be empty.&quot;)&#10;    exit()" />
-    <MESSAGE value="Added the following function.&#10;check_file_dir(file_name)&#10;file_operation(file_name)&#10;read_file(file_name)" />
-    <MESSAGE value="Added () to print" />
-    <MESSAGE value="Added '\n' +" />
-    <MESSAGE value="Added + '\n'" />
-    <MESSAGE value="Removed '\n' + to from function file_operation" />
-    <MESSAGE value="Added os.path.abspath" />
     <MESSAGE value="Added file-read-write.py" />
     <MESSAGE value="Added file_name to the isdir and isfile" />
     <MESSAGE value="Variable file_exist replaced with file_exist_status" />
     <MESSAGE value="Added print(&quot;The &quot;, write_file_name, )" />
     <MESSAGE value="Added print(&quot;The &quot;, write_file_name, &quot;file exist.&quot;)ˆ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added print(&quot;The &quot;, write_file_name, &quot;file exist.&quot;)ˆ" />
+    <MESSAGE value="Added the menu-operations.py file" />
+    <MESSAGE value="Added menu_condition=0 into the menu function" />
+    <MESSAGE value="Added the following condition &#10;        if menu_condition == 5:&#10;            exit()ˆ" />
+    <MESSAGE value="Added the following condition after input &#10;        if menu_condition == 5:&#10;            exit()ˆ" />
+    <MESSAGE value="Added int() function" />
+    <MESSAGE value="Adde ''" />
+    <MESSAGE value="Added result to the every function" />
+    <MESSAGE value="Added True" />
+    <MESSAGE value="Replaced menu_condition with choice" />
+    <MESSAGE value="Added getopts.py file" />
+    <MESSAGE value="Added info_msg() function" />
+    <MESSAGE value="Added  if opt in (&quot;-h&quot;,&quot;--help&quot;): condition" />
+    <MESSAGE value="Added file-write-while-true.py added" />
+    <MESSAGE value="Added print (&quot;The &quot;,ifile,&quot;file created.&quot;)" />
+    <MESSAGE value="Added global file_status" />
+    <MESSAGE value="Moved global file_status inside the check_input" />
+    <MESSAGE value="Added the comment # This script is ready but need to handle the keyboard interrupt.&#10;Searching for the solution." />
+    <MESSAGE value="Added try finally" />
+    <MESSAGE value="Added sample-class.py" />
+    <MESSAGE value="Added sample-inheritance.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sample-inheritance.py" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/PycharmProjects/xen-server-commands/build.sh">
+    <entry file="file://$USER_HOME$/PycharmProjects/python/sample-class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="45">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/rpm-mysql/rpm/rpm-mysql.spec">
+    <entry file="file://$USER_HOME$/PycharmProjects/python/sample-inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print_msg.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/xen-server-commands/xe-cmd.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/xen-server-commands/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/rpm-mysql/rpm/rpm-mysql.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state>
+          <caret column="20" lean-forward="true" selection-end-column="20" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -715,63 +769,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/python/create-dir.py">
+    <entry file="file://$USER_HOME$/PycharmProjects/python/create-dir.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/python/create-file.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/python/file-operation.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/python/file-write.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/python/menu-operations.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/python/file-read-write.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/python/file-write-while-true.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/python/sample-class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <element signature="e#59#68#0" expanded="true" />
+            <element signature="e#22#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/python/create-file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
-          <folding>
-            <element signature="e#54#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/python/file-operation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
-          <folding>
-            <element signature="e#58#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/python/file-write.py">
+    <entry file="file://$USER_HOME$/PycharmProjects/python/sample-inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="20" selection-end-column="20" />
           <folding>
-            <element signature="e#55#64#0" expanded="true" />
+            <element signature="e#22#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/python/file-read-write.py">
+    <entry file="file://$USER_HOME$/PycharmProjects/python/getopts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#87#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/python/menu-operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding>
-            <element signature="e#67#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
